@@ -1,7 +1,3 @@
-# GetPaid
-
-**[getpaid.dev](https://getpaid.dev)**
-
 Simple, self-hosted invoice management for freelancers. No bloat, no hidden fees, no vendor lock-in.
 
 ## Features
@@ -20,8 +16,8 @@ Simple, self-hosted invoice management for freelancers. No bloat, no hidden fees
 ## Quick Start (Docker)
 
 ```bash
-git clone https://github.com/maksim-pokhiliy/getpaid.git
-cd getpaid
+git clone https://github.com/vachavez87/payvio.git
+cd payvio
 ```
 
 Generate a secret and start:
@@ -47,8 +43,8 @@ Open [http://localhost:3000](http://localhost:3000) and create an account.
 ### Install
 
 ```bash
-git clone https://github.com/maksim-pokhiliy/getpaid.git
-cd getpaid
+git clone https://github.com/vachavez87/payvio.git
+cd payvio
 pnpm install
 ```
 
@@ -148,10 +144,6 @@ src/
 | `pnpm db:seed` | Seed demo data |
 | `pnpm db:studio` | Open Prisma Studio |
 
-## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for development guidelines and project conventions.
 
-## License
-
-[MIT](./LICENSE)
